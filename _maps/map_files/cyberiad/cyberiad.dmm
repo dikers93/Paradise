@@ -181,6 +181,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
@@ -1898,6 +1899,7 @@
 /area/security/medbay)
 "aeO" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -2102,6 +2104,7 @@
 /area/security/prisonershuttle)
 "afb" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -2209,6 +2212,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
@@ -2561,6 +2565,7 @@
 	c_tag = "Prisoner Lockers"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -3223,6 +3228,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -5367,6 +5373,7 @@
 /area/security/brig)
 "akF" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -8377,6 +8384,7 @@
 	pixel_x = 24
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
@@ -9593,6 +9601,7 @@
 	},
 /obj/item/spacepod_equipment/weaponry/laser,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -9615,6 +9624,7 @@
 /area/security/podbay)
 "arK" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -11507,6 +11517,7 @@
 /area/security/lobby)
 "auM" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -11626,6 +11637,7 @@
 /area/security/prison/cell_block/A)
 "auR" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -11708,6 +11720,7 @@
 /area/security/prisonershuttle)
 "auW" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -12238,6 +12251,7 @@
 /area/lawoffice)
 "avO" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
 	pixel_y = -24
@@ -13821,6 +13835,7 @@
 /area/security/permabrig)
 "ayC" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -14482,6 +14497,7 @@
 /area/lawoffice)
 "azB" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -15402,6 +15418,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -16363,6 +16380,7 @@
 "aDm" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -16825,6 +16843,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -17275,6 +17294,7 @@
 /obj/item/gavelblock,
 /obj/item/gavelhammer,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -17580,6 +17600,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -17981,6 +18002,7 @@
 /area/civilian/barber)
 "aGJ" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -18690,6 +18712,7 @@
 /area/crew_quarters/arcade)
 "aIu" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -18755,6 +18778,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -19367,6 +19391,7 @@
 /area/maintenance/fpmaint)
 "aKd" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -19726,6 +19751,7 @@
 /area/maintenance/fsmaint2)
 "aKT" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -21918,6 +21944,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
@@ -22011,6 +22038,7 @@
 	name = "JoinLateCryo"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -22877,6 +22905,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -22918,6 +22947,7 @@
 /area/crew_quarters/courtroom)
 "aRQ" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -24392,6 +24422,7 @@
 /area/security/nuke_storage)
 "aVl" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -24684,6 +24715,7 @@
 /area/crew_quarters/bar)
 "aVH" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -24887,6 +24919,7 @@
 /area/maintenance/fsmaint2)
 "aWc" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -25040,6 +25073,7 @@
 /area/storage/primary)
 "aWp" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -25248,6 +25282,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -25548,6 +25583,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 15000;
 	dir = 4;
 	name = "Cryo and Arrivals Super APC";
@@ -25820,6 +25856,7 @@
 "aXU" = (
 /obj/item/flag/mime,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -26404,6 +26441,7 @@
 "aZc" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -28594,6 +28632,7 @@
 	},
 /obj/item/flag/nt,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -28897,6 +28936,7 @@
 	},
 /obj/machinery/reagentgrinder,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -29034,6 +29074,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -29506,6 +29547,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -29806,6 +29848,7 @@
 	name = "Clown"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -30063,6 +30106,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -30196,6 +30240,7 @@
 /area/hallway/secondary/entry)
 "bgq" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -32484,6 +32529,7 @@
 	},
 /obj/item/vending_refill/coffee,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -32577,6 +32623,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -33324,6 +33371,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -33717,6 +33765,7 @@
 "bnz" = (
 /obj/item/flashlight/flare,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -33747,6 +33796,7 @@
 "bnE" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -34479,6 +34529,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -36423,6 +36474,7 @@
 /area/civilian/vacantoffice)
 "btE" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -37459,6 +37511,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -37769,6 +37822,7 @@
 /obj/structure/cable,
 /obj/machinery/light,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -38120,6 +38174,7 @@
 /area/maintenance/fsmaint2)
 "bwY" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -38594,6 +38649,7 @@
 	},
 /obj/machinery/light,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
 	pixel_y = -24
@@ -39075,6 +39131,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_x = 0;
@@ -39222,6 +39279,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	dir = 1;
 	name = "north bump Important Area";
@@ -39788,6 +39846,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -40488,6 +40547,7 @@
 /area/crew_quarters/toilet)
 "bBP" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -40825,6 +40885,7 @@
 "bCJ" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
 	pixel_y = -24
@@ -40958,6 +41019,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -42017,6 +42079,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -42389,6 +42452,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -43895,6 +43959,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -44229,6 +44294,7 @@
 /area/quartermaster/office)
 "bJF" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -44483,6 +44549,7 @@
 /area/hallway/primary/starboard/east)
 "bKc" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -45766,6 +45833,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -47394,6 +47462,7 @@
 /area/medical/paramedic)
 "bPg" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -47648,6 +47717,7 @@
 /area/toxins/lab)
 "bPC" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -47724,6 +47794,7 @@
 /obj/item/stock_parts/matter_bin,
 /obj/structure/table/glass,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -48161,6 +48232,7 @@
 	},
 /obj/structure/dresser,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -48322,6 +48394,7 @@
 	tag = ""
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -48551,6 +48624,7 @@
 	pixel_y = -6
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -48606,6 +48680,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -49124,6 +49199,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24;
@@ -49741,6 +49817,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_x = 0;
@@ -51072,6 +51149,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -51727,6 +51805,7 @@
 /obj/item/crowbar,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -52257,6 +52336,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -52454,6 +52534,7 @@
 "bXO" = (
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 15000;
 	dir = 4;
 	name = "Cryo and Arrivals Super APC";
@@ -52940,6 +53021,7 @@
 	dir = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -52992,6 +53074,7 @@
 /area/quartermaster/office)
 "bYI" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -54554,6 +54637,7 @@
 /obj/structure/table/glass,
 /obj/item/storage/box/disks,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -54891,6 +54975,7 @@
 /area/space/nearstation)
 "cbH" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -55003,6 +55088,7 @@
 /area/toxins/test_area)
 "cbT" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -55368,6 +55454,7 @@
 	},
 /obj/machinery/light,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -55621,6 +55708,7 @@
 /area/maintenance/asmaint2)
 "ccJ" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump Important Area";
 	pixel_x = 24
@@ -55758,6 +55846,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -55777,6 +55866,7 @@
 /obj/machinery/atmospherics/unary/portables_connector,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -56270,6 +56360,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -56499,6 +56590,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -56969,6 +57061,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -57782,6 +57875,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -57985,6 +58079,7 @@
 /area/medical/surgery1)
 "chk" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -58067,6 +58162,7 @@
 /area/medical/cmo)
 "chs" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -58750,6 +58846,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -58790,6 +58887,7 @@
 	},
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -59510,6 +59608,7 @@
 	},
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -59933,6 +60032,7 @@
 "ckF" = (
 /obj/structure/chair/stool,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -60127,6 +60227,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -60581,6 +60682,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -60637,6 +60739,7 @@
 	dir = 8
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -61476,6 +61579,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -61542,6 +61646,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -62532,6 +62637,7 @@
 /obj/item/folder,
 /obj/item/radio,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -63255,6 +63361,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -63313,6 +63420,7 @@
 	dir = 5
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -63810,6 +63918,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -63925,6 +64034,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -65286,6 +65396,7 @@
 "ctI" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -65752,6 +65863,7 @@
 /area/medical/surgery1)
 "cuA" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -65786,6 +65898,7 @@
 	})
 "cuC" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -66324,6 +66437,7 @@
 	pixel_y = 3
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -67263,6 +67377,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -68510,6 +68625,7 @@
 "czC" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump Engineering";
 	pixel_y = -24;
 	shock_proof = 1
@@ -68646,6 +68762,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -69185,6 +69302,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -69822,6 +69940,7 @@
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -70501,6 +70620,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
@@ -70730,6 +70850,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -70887,6 +71008,7 @@
 "cEb" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -70943,6 +71065,7 @@
 "cEg" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -71237,6 +71360,7 @@
 	},
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -72213,6 +72337,7 @@
 	pixel_x = 5
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
@@ -73149,6 +73274,7 @@
 /area/engine/chiefs_office)
 "cIe" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump Engineering";
 	pixel_x = 24;
@@ -73837,6 +73963,7 @@
 	pixel_y = -3
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -74515,6 +74642,7 @@
 	},
 /obj/effect/decal/warning_stripes/northwestcorner,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -76912,6 +77040,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -77004,6 +77133,7 @@
 /obj/item/pen,
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -78978,6 +79108,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -79470,6 +79601,7 @@
 	dir = 10
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -80190,6 +80322,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump Engineering";
 	pixel_y = -24;
 	shock_proof = 1
@@ -81244,6 +81377,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -82577,6 +82711,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -82779,6 +82914,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	pixel_x = 24
 	},
@@ -83052,6 +83188,7 @@
 /area/atmos)
 "daZ" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "Escape Podbay APC";
 	pixel_x = -25
@@ -83252,6 +83389,7 @@
 /area/maintenance/genetics)
 "dbx" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -84814,6 +84952,7 @@
 	dir = 6
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -84847,6 +84986,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
@@ -85544,6 +85684,7 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/mug,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -85846,6 +85987,7 @@
 /area/crew_quarters/dorms)
 "dht" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -86894,6 +87036,7 @@
 	},
 /obj/structure/chair,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -87036,6 +87179,7 @@
 /area/atmos)
 "djV" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -89930,6 +90074,7 @@
 	},
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -89959,6 +90104,7 @@
 	},
 /obj/machinery/power/port_gen/pacman,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -90121,6 +90267,7 @@
 "drh" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
@@ -90311,6 +90458,7 @@
 	start_active = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
 	pixel_y = -24
@@ -90555,6 +90703,7 @@
 	dir = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	cell_type = 25000;
 	dir = 1;
 	name = "Engineering Engine Super APC";
@@ -90715,6 +90864,7 @@
 /area/engine/engineering)
 "dts" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
@@ -90978,6 +91128,7 @@
 /area/security/range)
 "fbY" = (
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -91464,6 +91615,7 @@
 "hyv" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
+	start_charge = 0;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -92192,6 +92344,7 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -94007,6 +94160,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
+	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
