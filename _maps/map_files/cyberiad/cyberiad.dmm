@@ -181,11 +181,11 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
-	pixel_y = 27
+	pixel_y = 27;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -1899,10 +1899,10 @@
 /area/security/medbay)
 "aeO" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -2104,10 +2104,10 @@
 /area/security/prisonershuttle)
 "afb" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -2212,11 +2212,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/machinery/photocopier,
 /turf/simulated/floor/plasteel{
@@ -2565,10 +2565,10 @@
 	c_tag = "Prisoner Lockers"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -3228,10 +3228,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Brig Main Hall Center"
@@ -5373,10 +5373,10 @@
 /area/security/brig)
 "akF" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -8384,11 +8384,11 @@
 	pixel_x = 24
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	dir = 8;
 	name = "west bump Important Area";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
@@ -9162,10 +9162,11 @@
 	},
 /area/lawoffice)
 "arb" = (
-/obj/structure/cable,
-/obj/structure/lattice/catwalk,
+/obj/item/stack/rods{
+	amount = 10
+	},
 /turf/space,
-/area/solar/auxport)
+/area/space)
 "arc" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/cable{
@@ -9601,10 +9602,10 @@
 	},
 /obj/item/spacepod_equipment/weaponry/laser,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -9624,10 +9625,10 @@
 /area/security/podbay)
 "arK" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -11517,10 +11518,10 @@
 /area/security/lobby)
 "auM" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -11637,10 +11638,10 @@
 /area/security/prison/cell_block/A)
 "auR" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -11720,10 +11721,10 @@
 /area/security/prisonershuttle)
 "auW" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel,
@@ -12251,10 +12252,10 @@
 /area/lawoffice)
 "avO" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13835,10 +13836,10 @@
 /area/security/permabrig)
 "ayC" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -14497,10 +14498,10 @@
 /area/lawoffice)
 "azB" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -15418,10 +15419,10 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -16380,10 +16381,10 @@
 "aDm" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -16843,10 +16844,10 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -17023,6 +17024,7 @@
 /area/shuttle/syndicate_elite)
 "aEC" = (
 /obj/structure/chair/stool,
+/obj/item/wrench,
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarport)
 "aED" = (
@@ -17294,9 +17296,9 @@
 /obj/item/gavelblock,
 /obj/item/gavelhammer,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
@@ -17600,11 +17602,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarport)
@@ -18002,10 +18004,10 @@
 /area/civilian/barber)
 "aGJ" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -18712,10 +18714,10 @@
 /area/crew_quarters/arcade)
 "aIu" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -18778,11 +18780,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarstarboard)
@@ -19391,10 +19393,10 @@
 /area/maintenance/fpmaint)
 "aKd" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -19751,10 +19753,10 @@
 /area/maintenance/fsmaint2)
 "aKT" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -20385,9 +20387,8 @@
 /area/maintenance/electrical)
 "aMi" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/maintenance{
-	lootcount = 3;
-	name = "3maintenance loot spawner"
+/obj/item/stack/sheet/glass{
+	amount = 15
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fsmaint2)
@@ -20758,6 +20759,7 @@
 	lootcount = 2;
 	name = "2maintenance loot spawner"
 	},
+/obj/item/tank/emergency_oxygen/engi,
 /turf/simulated/floor/plating,
 /area/maintenance/fsmaint2)
 "aNi" = (
@@ -21944,11 +21946,11 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/electrical)
@@ -22038,10 +22040,10 @@
 	name = "JoinLateCryo"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -22905,10 +22907,10 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/bar)
@@ -22947,9 +22949,9 @@
 /area/crew_quarters/courtroom)
 "aRQ" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/wood,
@@ -24422,10 +24424,10 @@
 /area/security/nuke_storage)
 "aVl" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -24715,9 +24717,9 @@
 /area/crew_quarters/bar)
 "aVH" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -24919,10 +24921,10 @@
 /area/maintenance/fsmaint2)
 "aWc" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -25073,10 +25075,10 @@
 /area/storage/primary)
 "aWp" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -25282,10 +25284,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/ne)
@@ -25583,11 +25585,11 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 15000;
 	dir = 4;
 	name = "Cryo and Arrivals Super APC";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -25856,10 +25858,10 @@
 "aXU" = (
 /obj/item/flag/mime,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -26441,9 +26443,9 @@
 "aZc" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/secondary/construction{
@@ -28632,10 +28634,10 @@
 	},
 /obj/item/flag/nt,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -28936,10 +28938,10 @@
 	},
 /obj/machinery/reagentgrinder,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "hydrofloor"
@@ -29074,9 +29076,9 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
@@ -29547,9 +29549,9 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -29848,10 +29850,10 @@
 	name = "Clown"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -30106,10 +30108,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
@@ -30240,10 +30242,10 @@
 /area/hallway/secondary/entry)
 "bgq" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -32529,10 +32531,10 @@
 	},
 /obj/item/vending_refill/coffee,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -32623,10 +32625,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -33371,10 +33373,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -33765,10 +33767,10 @@
 "bnz" = (
 /obj/item/flashlight/flare,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -33796,10 +33798,10 @@
 "bnE" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/carpet,
 /area/civilian/pet_store)
@@ -34529,10 +34531,10 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Auxiliary Tool Storage"
@@ -36474,10 +36476,10 @@
 /area/civilian/vacantoffice)
 "btE" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -37511,10 +37513,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/carpet,
 /area/library)
@@ -37822,9 +37824,9 @@
 /obj/structure/cable,
 /obj/machinery/light,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria";
@@ -38174,10 +38176,10 @@
 /area/maintenance/fsmaint2)
 "bwY" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/structure/closet/secure_closet/personal,
@@ -38649,10 +38651,10 @@
 	},
 /obj/machinery/light,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -39131,11 +39133,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
@@ -39279,11 +39281,11 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	dir = 1;
 	name = "north bump Important Area";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
@@ -39846,10 +39848,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8;
@@ -40547,10 +40549,10 @@
 /area/crew_quarters/toilet)
 "bBP" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -40885,10 +40887,10 @@
 "bCJ" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_upload)
@@ -41019,10 +41021,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -42079,10 +42081,10 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -42452,10 +42454,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -43959,9 +43961,9 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitecorner"
@@ -44294,10 +44296,10 @@
 /area/quartermaster/office)
 "bJF" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -44549,10 +44551,10 @@
 /area/hallway/primary/starboard/east)
 "bKc" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -45833,10 +45835,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/maintcentral)
@@ -47462,10 +47464,10 @@
 /area/medical/paramedic)
 "bPg" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -47717,10 +47719,10 @@
 /area/toxins/lab)
 "bPC" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/alarm{
@@ -47794,10 +47796,10 @@
 /obj/item/stock_parts/matter_bin,
 /obj/structure/table/glass,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -48232,10 +48234,10 @@
 	},
 /obj/structure/dresser,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/captain/bedroom)
@@ -48394,9 +48396,9 @@
 	tag = ""
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
@@ -48624,9 +48626,9 @@
 	pixel_y = -6
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/item/gun/syringe,
@@ -48680,10 +48682,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/se)
@@ -49199,11 +49201,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24;
-	shock_proof = 0
+	shock_proof = 0;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/engine/gravitygenerator)
@@ -49817,11 +49819,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
 	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/item/flag/nt,
 /turf/simulated/floor/wood,
@@ -51149,10 +51151,10 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -51805,9 +51807,9 @@
 /obj/item/crowbar,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/door_control{
@@ -52336,10 +52338,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/teleporter)
@@ -52534,11 +52536,11 @@
 "bXO" = (
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 15000;
 	dir = 4;
 	name = "Cryo and Arrivals Super APC";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -53021,9 +53023,9 @@
 	dir = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel,
@@ -53074,9 +53076,9 @@
 /area/quartermaster/office)
 "bYI" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -54637,9 +54639,9 @@
 /obj/structure/table/glass,
 /obj/item/storage/box/disks,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/structure/cable,
@@ -54975,10 +54977,10 @@
 /area/space/nearstation)
 "cbH" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -55088,9 +55090,9 @@
 /area/toxins/test_area)
 "cbT" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
@@ -55454,9 +55456,9 @@
 	},
 /obj/machinery/light,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /obj/item/roller,
@@ -55708,10 +55710,10 @@
 /area/maintenance/asmaint2)
 "ccJ" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump Important Area";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -55846,10 +55848,10 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel/dark/telecomms,
 /area/toxins/server_coldroom)
@@ -55866,10 +55868,10 @@
 /obj/machinery/atmospherics/unary/portables_connector,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/toxins/server)
@@ -56360,10 +56362,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/sw)
@@ -56590,10 +56592,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/south)
@@ -57061,10 +57063,10 @@
 	icon_state = "pipe-c"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/janitor)
@@ -57875,10 +57877,10 @@
 	icon_state = "pipe-c"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -58079,10 +58081,10 @@
 /area/medical/surgery1)
 "chk" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -58162,10 +58164,10 @@
 /area/medical/cmo)
 "chs" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -58846,10 +58848,10 @@
 	pixel_y = 32
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/wood,
 /area/blueshield)
@@ -58887,10 +58889,10 @@
 	},
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/wood,
 /area/ntrep)
@@ -59608,10 +59610,10 @@
 	},
 /obj/item/twohanded/required/kirbyplants,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria";
@@ -60032,10 +60034,10 @@
 "ckF" = (
 /obj/structure/chair/stool,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -60227,9 +60229,9 @@
 	pixel_x = -24
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plasteel{
@@ -60682,10 +60684,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -60739,10 +60741,10 @@
 	dir = 8
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
@@ -61579,10 +61581,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -61646,10 +61648,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -62637,9 +62639,9 @@
 /obj/item/folder,
 /obj/item/radio,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -63361,10 +63363,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -63420,9 +63422,9 @@
 	dir = 5
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -63918,10 +63920,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
@@ -64034,10 +64036,10 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /obj/effect/decal/warning_stripes/southeastcorner,
 /turf/simulated/floor/plasteel{
@@ -65396,10 +65398,10 @@
 "ctI" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/table,
 /obj/item/stack/cable_coil{
@@ -65863,10 +65865,10 @@
 /area/medical/surgery1)
 "cuA" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -65898,10 +65900,10 @@
 	})
 "cuC" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -66437,10 +66439,10 @@
 	pixel_y = 3
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/storage/tech)
@@ -67377,10 +67379,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -68625,10 +68627,10 @@
 "czC" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump Engineering";
 	pixel_y = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/engine/controlroom)
@@ -68762,10 +68764,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "floorgrime"
@@ -69302,10 +69304,10 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -69940,10 +69942,10 @@
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -70620,11 +70622,11 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/atmos/distribution)
@@ -70850,10 +70852,10 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating/airless,
 /area/toxins/test_area)
@@ -71008,10 +71010,10 @@
 "cEb" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/consarea)
@@ -71065,10 +71067,10 @@
 "cEg" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/wood,
 /area/medical/psych)
@@ -71360,10 +71362,10 @@
 	},
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -72337,11 +72339,11 @@
 	pixel_x = 5
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/atmos/control)
@@ -73274,11 +73276,11 @@
 /area/engine/chiefs_office)
 "cIe" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump Engineering";
 	pixel_x = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /obj/structure/cable/yellow{
 	d2 = 8;
@@ -73963,11 +73965,11 @@
 	pixel_y = -3
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -74642,10 +74644,10 @@
 	},
 /obj/effect/decal/warning_stripes/northwestcorner,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -77040,11 +77042,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/engine/equipmentstorage)
@@ -77133,9 +77135,9 @@
 /obj/item/pen,
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/engine,
 /area/toxins/test_chamber)
@@ -79108,10 +79110,10 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/aft)
@@ -79121,6 +79123,35 @@
 	d2 = 8;
 	icon_state = "4-8";
 	tag = ""
+	},
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/structure/closet/crate{
+	name = "solar pack crate"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/aft)
@@ -79601,10 +79632,10 @@
 	dir = 10
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
@@ -80313,6 +80344,7 @@
 	name = "Aft Port Solar Control"
 	},
 /obj/structure/cable,
+/obj/item/wrench,
 /turf/simulated/floor/plating,
 /area/maintenance/portsolar)
 "cVm" = (
@@ -80322,28 +80354,29 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump Engineering";
 	pixel_y = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/portsolar)
 "cVn" = (
-/obj/structure/closet/wardrobe/black,
 /obj/machinery/camera{
 	c_tag = "Aft Port Solar Access";
 	dir = 1
-	},
-/obj/effect/spawner/lootdrop/maintenance{
-	lootcount = 2;
-	name = "2maintenance loot spawner"
 	},
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'HIGH VOLTAGE'";
 	icon_state = "shock";
 	name = "HIGH VOLTAGE";
 	pixel_y = -32
+	},
+/obj/structure/closet/crate{
+	name = "solar pack crate"
+	},
+/obj/item/stack/sheet/glass{
+	amount = 26
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/aft)
@@ -81377,10 +81410,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "bluecorner"
@@ -82711,9 +82744,9 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -82914,9 +82947,9 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/storage)
@@ -83188,10 +83221,10 @@
 /area/atmos)
 "daZ" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "Escape Podbay APC";
-	pixel_x = -25
+	pixel_x = -25;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 4;
@@ -83389,9 +83422,9 @@
 /area/maintenance/genetics)
 "dbx" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -84504,12 +84537,6 @@
 /area/solar/starboard)
 "ddV" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	tag = ""
-	},
-/obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8";
@@ -84609,11 +84636,10 @@
 /turf/space,
 /area/solar/starboard)
 "deg" = (
-/obj/structure/cable,
-/obj/machinery/power/tracker,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable,
 /turf/space,
-/area/solar/starboard)
+/area/solar/auxport)
 "deh" = (
 /obj/machinery/space_heater,
 /obj/structure/cable{
@@ -84952,11 +84978,11 @@
 	dir = 6
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel,
 /area/atmos)
@@ -84986,11 +85012,11 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump Engineering";
 	pixel_x = -24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/starboardsolar)
@@ -85126,6 +85152,13 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/closet/crate{
+	name = "solar pack crate"
+	},
+/obj/item/stack/sheet/glass{
+	amount = 44
+	},
+/obj/item/circuitboard/solar_control,
 /turf/simulated/floor/plating,
 /area/maintenance/starboardsolar)
 "dfk" = (
@@ -85684,9 +85717,9 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/mug,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable,
 /turf/simulated/floor/wood,
@@ -85987,9 +86020,9 @@
 /area/crew_quarters/dorms)
 "dht" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -86982,6 +87015,54 @@
 	c_tag = "Aft Starboard Solar Access";
 	dir = 1
 	},
+/obj/structure/closet/crate{
+	name = "solar pack crate"
+	},
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint2)
 "djD" = (
@@ -87036,10 +87117,10 @@
 	},
 /obj/structure/chair,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
@@ -87179,10 +87260,10 @@
 /area/atmos)
 "djV" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -90074,10 +90155,10 @@
 	},
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/aisat/entrance{
@@ -90104,10 +90185,10 @@
 	},
 /obj/machinery/power/port_gen/pacman,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/plating,
 /area/aisat/maintenance{
@@ -90267,10 +90348,10 @@
 "drh" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 4;
 	name = "east bump";
-	pixel_x = 24
+	pixel_x = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/bluegrid,
 /area/aisat{
@@ -90458,10 +90539,10 @@
 	start_active = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 5000;
 	name = "south bump Important Area";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
@@ -90703,12 +90784,12 @@
 	dir = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	cell_type = 25000;
 	dir = 1;
 	name = "Engineering Engine Super APC";
 	pixel_y = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -90864,11 +90945,11 @@
 /area/engine/engineering)
 "dts" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump Engineering";
 	pixel_y = 24;
-	shock_proof = 1
+	shock_proof = 1;
+	start_charge = 0
 	},
 /obj/structure/cable/yellow{
 	d2 = 2;
@@ -90919,6 +91000,12 @@
 	icon_state = "neutralfull"
 	},
 /area/shuttle/escape)
+"dzz" = (
+/obj/item/stack/rods{
+	amount = 10
+	},
+/turf/space,
+/area/space/nearstation)
 "dAN" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
@@ -91085,6 +91172,16 @@
 	icon_state = "dark"
 	},
 /area/server)
+"eRj" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
 "eRE" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -91101,6 +91198,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/wall,
 /area/crew_quarters/dorms)
+"eTI" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/item/tank/emergency_oxygen/engi,
+/turf/simulated/floor/plating,
+/area/maintenance/fsmaint2)
 "eYG" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -91128,10 +91231,10 @@
 /area/security/range)
 "fbY" = (
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -91167,6 +91270,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"fhJ" = (
+/obj/structure/lattice,
+/turf/space,
+/area/solar/auxport)
 "fji" = (
 /obj/machinery/light{
 	dir = 8;
@@ -91348,6 +91455,22 @@
 /obj/machinery/vending/security,
 /turf/simulated/shuttle/floor4,
 /area/shuttle/escape)
+"gca" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
 "gdm" = (
 /obj/machinery/clonepod/upgraded,
 /obj/machinery/light/spot{
@@ -91376,12 +91499,19 @@
 /obj/structure/sign/security,
 /turf/simulated/wall/r_wall,
 /area/hallway/secondary/exit)
+"ggT" = (
+/turf/space,
+/area/solar/auxport)
 "ghD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"gmV" = (
+/obj/structure/lattice,
+/turf/space,
+/area/solar/auxstarboard)
 "gmY" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/plasteel{
@@ -91459,6 +91589,24 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"gKc" = (
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/item/stack/sheet/glass{
+	amount = 36
+	},
+/obj/structure/closet/crate{
+	name = "solar pack crate"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/fpmaint)
 "gMk" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/shuttle/floor{
@@ -91483,6 +91631,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/toxins/mixing)
+"gPQ" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/port)
 "gTi" = (
 /obj/structure/table,
 /obj/item/ashtray/bronze{
@@ -91584,6 +91741,22 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel,
 /area/security/range)
+"hli" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "hmM" = (
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -91615,9 +91788,9 @@
 "hyv" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	start_charge = 0;
 	name = "south bump";
-	pixel_y = -24
+	pixel_y = -24;
+	start_charge = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -91633,6 +91806,9 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
+"hzF" = (
+/turf/space,
+/area/solar/auxstarboard)
 "hzW" = (
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 2;
@@ -91822,6 +91998,48 @@
 	},
 /turf/simulated/floor/plating,
 /area/toxins/mixing)
+"iJu" = (
+/obj/structure/closet/crate{
+	name = "solar pack crate"
+	},
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/turf/simulated/floor/plating,
+/area/maintenance/fpmaint)
 "iJG" = (
 /obj/structure/chair/wood/wings{
 	dir = 8;
@@ -91832,6 +92050,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"iMH" = (
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxstarboard)
 "iNz" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 4
@@ -91890,6 +92113,22 @@
 	icon_state = "blue"
 	},
 /area/hydroponics)
+"jjW" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/starboard)
 "jmn" = (
 /obj/effect/decal/warning_stripes/northeast,
 /turf/simulated/floor/plasteel,
@@ -91916,6 +92155,22 @@
 	icon_state = "grimy"
 	},
 /area/crew_quarters/bar)
+"juG" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
 "jyd" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -92244,6 +92499,32 @@
 	icon_state = "bot"
 	},
 /area/shuttle/escape)
+"lnR" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
+"lnX" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "lop" = (
 /obj/structure/chair{
 	dir = 8
@@ -92253,6 +92534,20 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"lpB" = (
+/obj/item/stack/cable_coil,
+/turf/simulated/floor/plating,
+/area/maintenance/fpmaint)
+"lsQ" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "lsY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -92266,6 +92561,18 @@
 	icon_state = "neutral"
 	},
 /area/shuttle/escape)
+"lBO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/space,
+/area/solar/auxport)
 "lGT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -92285,6 +92592,22 @@
 	icon_state = "dark"
 	},
 /area/security/main)
+"lJt" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxstarboard)
 "lLC" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -92316,6 +92639,15 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
+"max" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxstarboard)
 "mkE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
 /obj/machinery/atmospherics/unary/vent_scrubber{
@@ -92344,10 +92676,10 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 8;
 	name = "west bump";
-	pixel_x = -24
+	pixel_x = -24;
+	start_charge = 0
 	},
 /obj/structure/cable{
 	d2 = 2;
@@ -92447,6 +92779,12 @@
 	icon_state = "red"
 	},
 /area/security/range)
+"mFZ" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/item/wrench,
+/turf/simulated/floor/plating,
+/area/maintenance/fsmaint2)
 "mGt" = (
 /obj/item/flag/med,
 /turf/simulated/floor/plasteel{
@@ -92498,6 +92836,11 @@
 	icon_state = "bot"
 	},
 /area/shuttle/escape)
+"mRA" = (
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxport)
 "mSq" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/shuttle/floor{
@@ -92523,6 +92866,15 @@
 	icon_state = "red"
 	},
 /area/security/range)
+"mYJ" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxstarboard)
 "naH" = (
 /obj/structure/bed/roller,
 /turf/simulated/floor/plasteel{
@@ -92547,6 +92899,12 @@
 /mob/living/simple_animal/pet/dog/corgi/Ian,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads)
+"ngE" = (
+/obj/item/stack/rods{
+	amount = 8
+	},
+/turf/space,
+/area/space)
 "nhb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -92573,6 +92931,15 @@
 	tag = "icon-cafeteria (NORTHEAST)"
 	},
 /area/crew_quarters/kitchen)
+"npM" = (
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxport)
 "nqX" = (
 /obj/structure/table,
 /obj/item/paper{
@@ -92597,6 +92964,16 @@
 	icon_state = "vault"
 	},
 /area/shuttle/escape)
+"ntA" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "nvb" = (
 /obj/machinery/blackbox_recorder,
 /turf/simulated/floor/bluegrid,
@@ -92686,6 +93063,10 @@
 	tag = "icon-whiteblue (NORTH)"
 	},
 /area/shuttle/escape)
+"nTb" = (
+/obj/structure/lattice,
+/turf/space,
+/area/solar/port)
 "nVM" = (
 /obj/machinery/door/airlock/shuttle/glass{
 	name = "Emergency Airlock Access";
@@ -92719,6 +93100,9 @@
 /obj/item/clothing/head/cakehat,
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"okX" = (
+/turf/space,
+/area/solar/starboard)
 "oqQ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -92793,6 +93177,15 @@
 	icon_state = "green"
 	},
 /area/hydroponics)
+"oOV" = (
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/starboard)
 "oOZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
 /turf/simulated/wall/r_wall,
@@ -92828,6 +93221,22 @@
 	tag = "icon-whiteblue (NORTH)"
 	},
 /area/shuttle/escape)
+"oVS" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxstarboard)
 "oZV" = (
 /obj/machinery/mecha_part_fabricator/upgraded,
 /turf/simulated/shuttle/floor{
@@ -92874,6 +93283,27 @@
 	icon_state = "red"
 	},
 /area/security/range)
+"pqD" = (
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/port)
+"puZ" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
 "pwN" = (
 /obj/machinery/door_control{
 	id = "adminshuttleblast";
@@ -92951,6 +93381,11 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
+"pPu" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/space,
+/area/solar/starboard)
 "pQi" = (
 /obj/machinery/door/poddoor/shutters{
 	density = 0;
@@ -92964,11 +93399,48 @@
 /turf/space,
 /turf/simulated/floor/plating,
 /area/shuttle/administration)
+"pRF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/starboard)
 "pSJ" = (
 /obj/effect/decal/warning_stripes/northwest,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel,
 /area/security/range)
+"pUB" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/port)
+"pVW" = (
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/starboard)
 "pZO" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
@@ -92989,6 +93461,22 @@
 	icon_state = "bot"
 	},
 /area/shuttle/escape)
+"qck" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "qdA" = (
 /obj/machinery/computer/secure_data,
 /turf/simulated/floor/plasteel{
@@ -93106,6 +93594,12 @@
 	},
 /turf/simulated/shuttle/floor4,
 /area/shuttle/escape)
+"riU" = (
+/obj/structure/cable,
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/starboard)
 "rjA" = (
 /mob/living/simple_animal/pet/dog/security,
 /obj/structure/bed/dogbed,
@@ -93303,6 +93797,22 @@
 	tag = "icon-vault (NORTHEAST)"
 	},
 /area/turret_protected/aisat_interior)
+"rXB" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/starboard)
 "rYq" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/light/spot{
@@ -93415,6 +93925,15 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/administration)
+"sMg" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/port)
 "sPb" = (
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -93539,6 +94058,24 @@
 	tag = "icon-whiteblue (NORTHEAST)"
 	},
 /area/shuttle/escape)
+"tqq" = (
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/obj/item/solar_assembly,
+/turf/simulated/floor/plating,
+/area/maintenance/fsmaint2)
 "tzT" = (
 /obj/machinery/computer/card,
 /turf/simulated/shuttle/floor,
@@ -93574,6 +94111,12 @@
 	tag = "icon-whiteblue (NORTH)"
 	},
 /area/shuttle/escape)
+"tRX" = (
+/obj/item/stack/rods{
+	amount = 8
+	},
+/turf/space,
+/area/solar/starboard)
 "tVT" = (
 /obj/effect/decal/warning_stripes/red/hollow,
 /obj/effect/decal/warning_stripes/red/partial{
@@ -93592,6 +94135,26 @@
 /obj/item/flag/nt,
 /turf/simulated/floor/wood,
 /area/crew_quarters/heads)
+"upJ" = (
+/obj/structure/lattice,
+/turf/space,
+/area/solar/starboard)
+"uqJ" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/starboard)
 "usf" = (
 /obj/machinery/computer/crew,
 /turf/simulated/floor/plasteel{
@@ -93811,6 +94374,16 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
+"vTV" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/starboard)
 "vUG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -94002,6 +94575,12 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
+"wzS" = (
+/obj/structure/cable,
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "solarpanel"
+	},
+/area/solar/auxport)
 "wCY" = (
 /obj/item/radio/intercom{
 	broadcasting = 0;
@@ -94070,6 +94649,16 @@
 	icon_state = "red"
 	},
 /area/security/range)
+"wUo" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxstarboard)
 "wVD" = (
 /obj/effect/landmark/start{
 	name = "Shaft Miner"
@@ -94153,6 +94742,9 @@
 	icon_state = "blue"
 	},
 /area/hydroponics)
+"xhJ" = (
+/turf/space,
+/area/solar/port)
 "xic" = (
 /obj/structure/cable{
 	d2 = 2;
@@ -94160,10 +94752,10 @@
 	pixel_y = 1
 	},
 /obj/machinery/power/apc{
-	start_charge = 0;
 	dir = 1;
 	name = "north bump";
-	pixel_y = 24
+	pixel_y = 24;
+	start_charge = 0
 	},
 /turf/simulated/floor/bluegrid,
 /area/server)
@@ -94246,6 +94838,22 @@
 	icon_state = "red"
 	},
 /area/security/range)
+"xNs" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "xTB" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "whiteblue";
@@ -94265,6 +94873,16 @@
 	},
 /turf/space,
 /area/space/nearstation)
+"xWo" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
+	},
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/solar/auxport)
 "yeP" = (
 /obj/machinery/door_control{
 	id = "adminshuttleblast";
@@ -106450,13 +107068,13 @@ aaa
 aaa
 aaa
 aaa
+dlE
+apo
 alw
 alw
 alw
-alw
-alw
-alw
-alw
+dlE
+dlE
 apo
 alw
 alw
@@ -106707,13 +107325,13 @@ aaa
 aaa
 aaa
 aaa
-alw
+dlE
+dlE
 aab
 aab
 aab
-aab
-aab
-aab
+dlE
+ayi
 aaa
 axn
 aaa
@@ -106964,19 +107582,19 @@ aaa
 aaa
 aaa
 aaa
-alw
-aab
-arX
+dlE
+ayi
+npM
 arL
 atF
 aaa
 arX
-arL
-atF
+ntA
+mRA
 aaa
-arX
-arL
-atF
+fhJ
+ggT
+mRA
 aaa
 alw
 aaa
@@ -107223,17 +107841,17 @@ aaa
 aaa
 alv
 aab
-arX
-arM
-atF
+npM
+xNs
+mRA
 aaa
 arX
 arM
 atF
 aaa
 arX
-arM
-atF
+arL
+wzS
 aab
 aab
 aaa
@@ -107478,15 +108096,15 @@ aaa
 aaa
 aaa
 aaa
-alv
+dlE
+dlE
+mRA
+lnX
+wzS
 aab
-arX
-arM
-atF
-aab
-arX
-arM
-atF
+npM
+xNs
+mRA
 aab
 arX
 arM
@@ -107735,19 +108353,19 @@ aaa
 aaa
 aaa
 aaa
+dlE
 aab
-aab
-arX
-arM
-atF
+mRA
+xWo
+mRA
 aaa
 arX
-arM
-atF
+xNs
+mRA
 aaa
-arX
-arM
-atF
+mRA
+xWo
+fhJ
 aab
 aab
 aaa
@@ -107757,7 +108375,7 @@ aaa
 aaa
 aMA
 aHR
-aHS
+iJu
 aJX
 aMA
 aKN
@@ -107989,22 +108607,22 @@ aaa
 aaa
 aaa
 aaa
-alw
-alw
+dlE
+apo
 alv
 aab
 aaa
-arX
-arM
-atF
+mRA
+lnX
+wzS
 aaa
 arX
 arM
 atF
 aaa
-arX
-arM
-atF
+fhJ
+lnX
+wzS
 aaa
 aab
 aaa
@@ -108246,7 +108864,7 @@ aaa
 aaa
 aaa
 aaa
-alw
+dlE
 aaa
 aab
 aaa
@@ -108507,8 +109125,7 @@ alv
 aab
 amU
 anG
-anG
-arb
+deg
 asb
 asb
 asb
@@ -108516,7 +109133,8 @@ asb
 asb
 asb
 asb
-asb
+fhJ
+fhJ
 asb
 asb
 awk
@@ -108765,17 +109383,17 @@ aaa
 aab
 aaa
 aaa
-aaa
-arU
-aaa
-aaa
-aaa
-arU
+ngE
+asb
 aaa
 aaa
 aaa
 arU
 aaa
+aaa
+bpL
+arU
+bpL
 aaa
 aAd
 aBE
@@ -108785,7 +109403,7 @@ aED
 aFR
 aHg
 aIw
-aHS
+lpB
 aHS
 aMA
 aLj
@@ -108865,8 +109483,8 @@ aaa
 alw
 alw
 alv
-alw
-alw
+dlE
+dlE
 aaa
 aaa
 aaa
@@ -109022,17 +109640,17 @@ aab
 alv
 aab
 aaa
-arX
+ggT
+fhJ
+atF
+aaa
+fhJ
 asL
 atF
 aaa
 arX
-asL
-atF
-aaa
-arX
-asL
-atF
+hli
+mRA
 aaa
 aab
 aaa
@@ -109119,11 +109737,11 @@ bhn
 aaa
 aaa
 aaa
-alw
+dlE
 aaa
 aab
 aaa
-alw
+dlE
 aaa
 aaa
 aaa
@@ -109279,17 +109897,17 @@ aaa
 aaa
 aab
 aab
-arX
-asL
-atF
+fhJ
+ggT
+mRA
 aaa
-arX
-asL
-atF
+npM
+hli
+fhJ
 aaa
-arX
-asL
-atF
+npM
+hli
+mRA
 aab
 aab
 aaa
@@ -109536,13 +110154,13 @@ aaa
 aaa
 alv
 aaa
-arX
-asL
+ggT
+lBO
 atF
 aab
 arX
-asL
-atF
+hli
+ggT
 aab
 arX
 asL
@@ -109627,9 +110245,9 @@ aaa
 aaa
 aaa
 aaa
-alw
-alw
-alw
+dlE
+dlE
+dlE
 alw
 ayi
 aab
@@ -109643,7 +110261,7 @@ alv
 alv
 amh
 alv
-alw
+dlE
 aaa
 aaa
 aaa
@@ -109793,16 +110411,16 @@ aaa
 aaa
 alv
 aab
-arX
-asL
-atF
+fhJ
+qck
+wzS
 aaa
 arX
 asL
 atF
 aaa
-arX
-asL
+mRA
+qck
 atF
 aab
 aab
@@ -109884,12 +110502,12 @@ aaa
 aaa
 aaa
 aaa
-alw
+dlE
 aaa
 aaa
 aaa
 aab
-aaa
+ngE
 aaa
 aab
 cPG
@@ -109900,7 +110518,7 @@ aab
 aab
 aab
 aaa
-alw
+dlE
 aaa
 aaa
 aaa
@@ -110052,10 +110670,10 @@ alw
 aaa
 arX
 asM
-atF
+wzS
 aaa
-arX
-asM
+ggT
+lsQ
 atF
 aaa
 arX
@@ -110072,7 +110690,7 @@ aQl
 aIK
 aMA
 aKd
-aLm
+gKc
 aMA
 aBy
 afO
@@ -110141,20 +110759,20 @@ aaa
 aaa
 aaa
 aaa
-alw
+dlE
 aaa
 cNF
-cNF
-cNF
-cNF
+pqD
+pqD
+nTb
 cNF
 aab
 cPH
 aab
 cNF
+pqD
 cNF
-cNF
-cNF
+gPQ
 cNF
 aab
 alv
@@ -110313,13 +110931,13 @@ aab
 aaa
 aab
 aaa
-aab
+ayi
 aaa
 aab
 aaa
 aab
 aaa
-alw
+dlE
 aaa
 aII
 aDz
@@ -110401,16 +111019,16 @@ aaa
 alv
 aab
 cpz
-cMB
-cMB
-cMB
+juG
+juG
+juG
 cMB
 cPx
 cyO
 cQq
-cRe
-cRe
-cRe
+gca
+pUB
+gca
 cRe
 cSk
 aaa
@@ -110565,14 +111183,14 @@ aaa
 alw
 alw
 alw
+dlE
 alw
+ayi
 alw
-aab
-alw
-alw
-alw
-alw
-alw
+dlE
+dlE
+dlE
+apo
 alw
 alw
 alw
@@ -110655,20 +111273,20 @@ aaa
 aaa
 aaa
 aaa
-alv
+aab
 aab
 cNM
 cNM
+sMg
 cNM
-cNM
-cNM
+sMg
 aab
-cyO
+nTb
 aab
+xhJ
 cNM
-cNM
-cNM
-cNM
+pqD
+sMg
 cNM
 aaa
 alw
@@ -110925,7 +111543,7 @@ aaa
 aaa
 aab
 aaa
-aaa
+ngE
 aaa
 aaa
 amh
@@ -111174,18 +111792,18 @@ aab
 cNF
 cNF
 cNF
-cNF
+pqD
 cNF
 aab
 cyO
 aab
 cNF
+gPQ
 cNF
-cNF
-cNF
-cNF
+pqD
+gPQ
 aab
-alv
+aab
 aaa
 aaa
 aaa
@@ -111426,23 +112044,23 @@ aaa
 aaa
 aaa
 aaa
-alv
+aab
 aab
 cpz
 cMB
 cMB
-cMB
+juG
 cMB
 cPx
 cyO
 cQq
 cRe
 cRe
-cRe
-cRe
+gca
+pUB
 cSk
 aab
-alv
+aab
 aaa
 aaa
 aaa
@@ -111686,8 +112304,8 @@ aaa
 aab
 aaa
 cNM
-cNM
-cNM
+sMg
+sMg
 cNM
 cNM
 aab
@@ -111695,11 +112313,11 @@ cyO
 aab
 cNM
 cNM
+nTb
 cNM
-cNM
-cNM
+sMg
 aab
-alv
+aab
 aaa
 aaa
 aaa
@@ -111948,7 +112566,7 @@ aab
 aaa
 aaa
 aaa
-cyO
+nTb
 aaa
 aaa
 aaa
@@ -111956,7 +112574,7 @@ aaa
 aab
 aaa
 aaa
-alv
+aab
 aaa
 aaa
 aaa
@@ -112202,18 +112820,18 @@ aab
 cNF
 cNF
 cNF
-cNF
-cNF
+xhJ
+xhJ
 aab
-cyO
+nTb
 aab
 cNF
+gPQ
 cNF
 cNF
-cNF
-cNF
+nTb
 aaa
-alw
+dlE
 aaa
 aaa
 aaa
@@ -112458,9 +113076,9 @@ ayi
 aab
 cpz
 cMB
-cMB
-cMB
-cMB
+puZ
+lnR
+juG
 cPx
 cyO
 cQq
@@ -112468,9 +113086,9 @@ cRe
 cRe
 cRe
 cRe
-cSk
+eRj
 aab
-alv
+aab
 aaa
 aaa
 aaa
@@ -112715,16 +113333,16 @@ aaa
 aab
 cNM
 cNM
-cNM
-cNM
-cNM
+pqD
+xhJ
+sMg
 aab
 cyO
 aab
 cNM
 cNM
 cNM
-cNM
+sMg
 cNM
 aab
 alv
@@ -112976,7 +113594,7 @@ aaa
 aab
 aab
 aaa
-cyO
+nTb
 aaa
 aab
 aaa
@@ -113234,7 +113852,7 @@ aaa
 aaa
 aaa
 cyO
-aaa
+ngE
 aaa
 aaa
 aaa
@@ -113497,7 +114115,7 @@ aaa
 aaa
 aab
 aab
-aab
+aaa
 aaa
 aaa
 aaa
@@ -113752,7 +114370,7 @@ aaa
 aaa
 aaa
 aaa
-aab
+aaa
 aab
 aab
 aab
@@ -114011,7 +114629,7 @@ aab
 aaa
 aaa
 aab
-aab
+aaa
 aaa
 aaa
 aaa
@@ -134717,12 +135335,12 @@ aaa
 aaa
 aaa
 aaa
+aab
 amW
+ayi
 amW
-amW
-amW
-amW
-amW
+aab
+ayi
 amW
 amW
 aaa
@@ -134972,10 +135590,10 @@ aaa
 aaa
 aaa
 alv
-alv
+ayi
 amW
 alv
-aab
+dlE
 aaa
 aab
 aaa
@@ -134991,7 +135609,7 @@ aaa
 aab
 aab
 aab
-aab
+dlE
 aab
 aab
 aab
@@ -135002,7 +135620,7 @@ aGT
 aGT
 aKR
 aMi
-aMo
+mFZ
 aOF
 aHP
 aQC
@@ -135228,28 +135846,28 @@ aaa
 aaa
 aaa
 aaa
-alv
+ayi
 aaa
 aab
-aaa
+arb
 aab
 aaa
 app
 app
 app
 app
+mYJ
 app
-app
-app
+mYJ
 app
 app
 aab
 aab
 aqZ
-aqZ
-aqZ
+gmV
+hzF
 aab
-aab
+dzz
 aDS
 aDS
 aDS
@@ -135260,7 +135878,7 @@ aGT
 aKT
 aGY
 aKX
-aGY
+tqq
 aHP
 aVA
 aXW
@@ -135493,7 +136111,7 @@ axq
 ann
 aoK
 apn
-apn
+lJt
 apn
 apn
 apn
@@ -135742,28 +136360,28 @@ aaa
 aaa
 aaa
 aaa
-alw
+dlE
 aaa
 aab
 aaa
 aab
 aaa
 apq
+max
+hzF
 apq
 apq
 apq
-apq
-apq
-apq
+max
 apq
 apq
 aab
-aab
+dlE
 aqZ
 aqZ
 awR
 aab
-aab
+dlE
 aDS
 aDS
 aDS
@@ -136005,7 +136623,7 @@ amW
 alv
 aab
 aaa
-aab
+dlE
 aaa
 aaa
 aaa
@@ -136020,7 +136638,7 @@ aab
 aqZ
 aab
 aab
-aab
+dlE
 aab
 aaa
 aGT
@@ -136029,7 +136647,7 @@ aGT
 aGT
 aGT
 aGX
-aHb
+eTI
 aNh
 aOG
 aGX
@@ -136259,14 +136877,14 @@ aaa
 aaa
 aaa
 aaa
-amW
+aab
 aab
 aaa
 aab
 aaa
 aaa
 aaa
-aab
+dlE
 aaa
 aaa
 aab
@@ -136274,7 +136892,7 @@ aaa
 aaa
 aab
 aaa
-aqZ
+gmV
 aaa
 aaa
 aaa
@@ -136520,16 +137138,16 @@ amW
 amW
 amW
 amW
+dzz
 aab
 aab
-aab
 app
 app
 app
+mYJ
 app
 app
-app
-app
+iMH
 aaa
 aqZ
 aab
@@ -136776,7 +137394,7 @@ aaa
 aaa
 aaa
 aaa
-amW
+ayi
 aab
 aqZ
 aqZ
@@ -136786,7 +137404,7 @@ apn
 apn
 apn
 apn
-apn
+oVS
 ann
 aqZ
 aab
@@ -137042,7 +137660,7 @@ apq
 apq
 apq
 apq
-apq
+max
 apq
 aab
 aqZ
@@ -137290,20 +137908,20 @@ aaa
 aaa
 aaa
 aaa
-amW
-aab
-aqZ
-aaa
-aab
-aaa
-aaa
-aab
-aaa
-aaa
 aab
 aab
 aqZ
 aaa
+aab
+aaa
+aaa
+aab
+aaa
+aaa
+dlE
+dlE
+gmV
+arb
 aab
 doE
 aHN
@@ -137547,17 +138165,17 @@ aaa
 aaa
 aaa
 aaa
-amW
-aab
+dlE
+dlE
 aqZ
 aaa
 aab
 aaa
 aaa
-aab
+dlE
 aaa
 aaa
-aab
+dlE
 aab
 aqZ
 aaa
@@ -137812,8 +138430,8 @@ app
 app
 app
 app
-app
-app
+mYJ
+mYJ
 app
 aab
 aqZ
@@ -138062,11 +138680,11 @@ aaa
 aaa
 aaa
 aqp
-aab
+dlE
 aqZ
 aqZ
 aoK
-apn
+lJt
 apn
 apn
 apn
@@ -138322,14 +138940,14 @@ amW
 aab
 aqZ
 aab
+max
+hzF
+max
 apq
 apq
 apq
 apq
-apq
-apq
-apq
-aab
+dlE
 aqZ
 aaa
 aaa
@@ -138578,8 +139196,8 @@ aaa
 amW
 aqL
 aqZ
-aab
-aab
+dlE
+dlE
 aaa
 aaa
 aab
@@ -138842,9 +139460,9 @@ aaa
 aab
 aaa
 aaa
+dlE
 aab
-aab
-aqZ
+hzF
 aaa
 aaa
 aHN
@@ -139089,7 +139707,7 @@ aaa
 aaa
 aaa
 aaa
-amW
+aab
 aab
 aqZ
 aaa
@@ -139099,7 +139717,7 @@ app
 app
 app
 app
-app
+mYJ
 aab
 aqZ
 aaa
@@ -139346,11 +139964,11 @@ aaa
 aaa
 aaa
 aaa
-amW
+dlE
 aab
 aqZ
 aqZ
-aoK
+wUo
 apn
 apn
 apn
@@ -139607,12 +140225,12 @@ amW
 aaa
 aab
 aab
+iMH
 apq
 apq
 apq
 apq
-apq
-apq
+max
 apq
 aab
 aaa
@@ -139867,10 +140485,10 @@ aaa
 aab
 aab
 aab
+dlE
 aab
 aab
-aab
-aab
+dlE
 aaa
 aaa
 aaa
@@ -140123,12 +140741,12 @@ amW
 amW
 amW
 aqp
+dlE
+dlE
 amW
-amW
-amW
-amW
-amW
-amW
+dlE
+dlE
+aab
 amW
 amW
 aAf
@@ -142815,20 +143433,20 @@ bGH
 bGH
 aaa
 aaa
+dlE
+amW
+aab
 amW
 amW
 amW
-amW
-amW
-amW
-amW
-amW
+aab
+dlE
 amW
 ayi
 amW
 amW
-amW
-amW
+dlE
+aab
 amW
 aaa
 aaa
@@ -143072,21 +143690,21 @@ aab
 aab
 aab
 aab
-amW
+dlE
+ngE
 aaa
-aaa
-aab
-aab
-aaa
-aaa
-aab
+dlE
 aab
 aaa
 aaa
 aab
 aab
 aaa
-amW
+aaa
+aab
+aab
+aaa
+aab
 aaa
 aaa
 aaa
@@ -143331,19 +143949,19 @@ aaa
 aaa
 alw
 aaa
-doh
-ddP
+okX
+vTV
 doG
 aab
 doh
 ddP
 doG
 aab
-doh
+oOV
 ddP
 doG
 aaa
-amW
+aab
 aaa
 aaa
 aaa
@@ -143588,19 +144206,19 @@ aaa
 aaa
 ayi
 aab
-doh
-ddQ
+pVW
+rXB
+riU
+aaa
+pVW
+rXB
 doG
 aaa
-doh
-ddQ
-doG
-aaa
-doh
-ddQ
-doG
+oOV
+pRF
+upJ
 aab
-amW
+dlE
 aaa
 aaa
 aaa
@@ -143845,19 +144463,19 @@ aaa
 aaa
 aab
 aaa
-doh
-ddQ
-doG
+oOV
+pRF
+upJ
+aab
+pVW
+rXB
+riU
 aab
 doh
-ddQ
-doG
+pRF
+okX
 aab
-doh
-ddQ
-doG
-aab
-amW
+dlE
 aaa
 aaa
 aaa
@@ -144102,17 +144720,17 @@ aab
 aab
 aab
 aab
-doh
-ddQ
-doG
+oOV
+pRF
+okX
 aab
-doh
+oOV
 ddQ
-doG
+riU
 aaa
 doh
-ddQ
-doG
+pRF
+pVW
 aab
 aaa
 aaa
@@ -144359,22 +144977,22 @@ aaa
 aaa
 aab
 aaa
-doh
-ddQ
-doG
+upJ
+rXB
+riU
 aab
-doh
-ddQ
-doG
+okX
+dee
+pVW
 aab
-doh
-ddQ
+okX
+rXB
 doG
 aaa
 aaa
 amW
-amW
-amW
+dlE
+dlE
 aaa
 aaa
 aaa
@@ -144631,7 +145249,7 @@ aaa
 aaa
 aab
 aaa
-amW
+aab
 aaa
 aaa
 aaa
@@ -144886,9 +145504,9 @@ def
 ddE
 ddE
 ddE
-deg
+ddN
 aab
-amW
+aab
 aaa
 aaa
 aaa
@@ -145386,23 +146004,23 @@ aaa
 aaa
 aaa
 aab
-aaa
-doh
-ddU
+ngE
+pVW
+dee
+okX
+aab
+okX
+uqJ
 doG
 aab
 doh
-ddU
-doG
+jjW
+tRX
+aaa
+aaa
 aab
-doh
-ddU
-doG
-aaa
-aaa
-amW
-amW
-amW
+aab
+dlE
 aaa
 aaa
 aaa
@@ -145644,17 +146262,17 @@ aab
 aab
 aab
 aab
-doh
-ddU
-doG
+okX
+uqJ
+riU
 aaa
 doh
 ddU
-doG
+riU
 aaa
-doh
-ddU
-doG
+oOV
+jjW
+pPu
 aaa
 aaa
 aaa
@@ -145902,18 +146520,18 @@ aaa
 aab
 aaa
 doh
-ddU
-doG
+jjW
+upJ
 aab
-doh
+oOV
 ddU
-doG
+riU
 aab
-doh
-ddU
-doG
-aab
-amW
+okX
+uqJ
+riU
+dlE
+dlE
 aaa
 aaa
 aaa
@@ -146158,19 +146776,19 @@ aab
 aab
 dhc
 aab
-doh
-ddU
-doG
+pVW
+uqJ
+riU
 aaa
 doh
-ddU
-doG
+jjW
+upJ
 aab
 doh
 ddU
-doG
-aab
-amW
+riU
+dlE
+dlE
 aaa
 aaa
 aaa
@@ -146415,7 +147033,7 @@ aaa
 aaa
 amh
 aaa
-doh
+pVW
 ddV
 doG
 aab
@@ -146427,7 +147045,7 @@ doh
 deb
 doG
 aaa
-amW
+aab
 aaa
 aaa
 aaa
@@ -146677,9 +147295,9 @@ aab
 aab
 aaa
 aab
-aab
+dlE
 aaa
-aab
+dlE
 aab
 aab
 aaa
@@ -146927,21 +147545,21 @@ aab
 aab
 aab
 aab
+dlE
+dlE
+amW
+aab
 amW
 amW
+aab
+dlE
+aab
 amW
 amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
+aab
+dlE
+aab
+aab
 aaa
 aaa
 aaa
